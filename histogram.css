@@ -1,0 +1,154 @@
+:root {
+    --light: #fafafa;
+    --red: #e53935;
+    --green: #4caf50;
+    --blue: #2196f3;
+  }
+  
+  html {
+    color: #333;
+    font: 18px/1.5 sans-serif;
+  
+    background-color: var(--light);
+  }
+  
+  body {
+    margin: 0;
+    padding: 50px 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin: 0;
+    margin-top: 5px;
+  }
+  
+  /* BEGIN (write your solution here) */
+  table {
+    margin: auto;
+    width: 100%;
+  }
+
+  thead {
+    display: flex;
+    justify-content: center;
+  }
+
+  th {
+    position: relative;
+  }
+
+  th span {
+    position: absolute;
+    z-index: 2;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .square-blue {
+    background-color: var(--blue);
+  }
+
+  .square-red {
+    background-color: var(--red);
+  }
+
+  .square-green {
+    background-color: var(--green);
+  }
+
+  tbody {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .histogram-row {
+    min-height: 400px;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .histogram-name {
+    position: absolute;
+  }
+
+  .histogram-col {
+    position: relative;
+    top: 30px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  span[data="40k"] {
+    height: 40%;
+  }
+
+  span[data="80k"] {
+    height: 80%;
+  }
+
+  span[data="75k"] {
+    height: 75%;
+  }
+
+  span[data="35k"] {
+    height: 35%;
+  }
+
+  span[data="63k"] {
+    height: 63%;
+  }
+
+  span[data="50k"] {
+    height: 50%;
+  }
+
+  span[data="90k"] {
+    height: 90%;
+  }
+
+  span[data="77k"] {
+    height: 77%;
+  }
+
+  .histogram-blue {
+    background-color: var(--blue);
+  }
+
+  .histogram-red {
+    background-color: var(--red);
+  }
+
+  .histogram-green {
+    background-color: var(--green);
+  }
+
+  /* END */
+  
+  .w-50px {
+    width: 50px;
+  }
+  
+  .mt-50px {
+    margin-top: 50px;
+  }
+  
+  .px-20 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
