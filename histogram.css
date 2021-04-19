@@ -91,6 +91,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-end;
   }
 
   span[data="40k"] {
